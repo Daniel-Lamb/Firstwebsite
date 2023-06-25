@@ -11,10 +11,14 @@ function App() {
     <div>
     <title>Danielamb</title>
       <NavBar />
+    
       <Home />
+    
       <About />
+
       <Portfolio />
       <Experience />
+    <br>
       <Contact />
 
       <SocialLinks />
