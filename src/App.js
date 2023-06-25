@@ -15,10 +15,10 @@ function App() {
       <Home />
     
       <About />
-
+  
       <Portfolio />
       <Experience />
-    <br>
+    </br><br /><br>
       <Contact />
 
       <SocialLinks />
