@@ -9,7 +9,7 @@ import SocialLinks from "./components/SocialLinks";
 function App() {
   return (
     <div>
-    <header><h1>My Website</h1></header>
+    <title>Danielamb</title>
       <NavBar />
       <Home />
       <About />
