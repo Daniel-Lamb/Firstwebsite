@@ -33,7 +33,6 @@ const Portfolio = () => {
       src: reactWeather,
     },
   ];
-<br />
   return (
     <div
       name="portfolio"
