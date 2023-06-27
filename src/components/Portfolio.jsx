@@ -16,22 +16,27 @@ const Portfolio = () => {
     {
       id: 2,
       src: reactParallax,
+      link: https://google.com,
     },
     {
       id: 3,
       src: navbar,
+      link: https://google.com,
     },
     {
       id: 4,
       src: reactSmooth,
+      link: https://google.com,
     },
     {
       id: 5,
       src: installNode,
+      link: https://google.com,
     },
     {
       id: 6,
       src: reactWeather,
+      link: https://google.com,
     },
   ];
   return (
