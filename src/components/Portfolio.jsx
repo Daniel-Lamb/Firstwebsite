@@ -11,34 +11,35 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
-      link: https://google.com,
+      learnMoreLink: "https://google.com",
     },
     {
       id: 2,
       src: reactParallax,
-      link: https://google.com,
+      learnMoreLink: "https://instagram.com",
     },
     {
       id: 3,
       src: navbar,
-      link: https://google.com,
+      learnMoreLink: "https://example.com/learn3",
     },
     {
       id: 4,
       src: reactSmooth,
-      link: https://google.com,
+      learnMoreLink: "https://example.com/learn4",
     },
     {
       id: 5,
       src: installNode,
-      link: https://google.com,
+      learnMoreLink: "https://example.com/learn5",
     },
     {
       id: 6,
       src: reactWeather,
-      link: https://google.com,
+      learnMoreLink: "https://example.com/learn6",
     },
   ];
+
   return (
     <div
       name="portfolio"
@@ -49,11 +50,11 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some cool projects I've worked on</p>
+          <p className="py-6">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link }) => (
+          {portfolios.map(({ id, src, learnMoreLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -61,8 +62,10 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={link} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Learn More
+                <a href={learnMoreLink} target="_blank" rel="noopener noreferrer">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Learn More
+                  </button>
                 </a>
               </div>
             </div>
