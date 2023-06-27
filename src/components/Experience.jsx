@@ -1,5 +1,8 @@
 import React from "react";
 
+import pythonpng from "../assets/pythonpng.png";
+import verilogpng from "../assets/verilogpng.png";
+import matlabpng from "../assets/matlabpng.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
