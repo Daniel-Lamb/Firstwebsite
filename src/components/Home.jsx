@@ -15,7 +15,7 @@ const Home = () => {
             Hi there! I'm Daniel 🐒
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            As of June 2023, I started learning web development.  This is my playground :)
+            I like to explore and learn new skills.  Welcome to one of my playgrounds! 😄
           </p>
 
           <div>
