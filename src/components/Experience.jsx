@@ -11,6 +11,25 @@ import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
   const techs = [
+
+    {
+      id: -2,
+      src: pythonpng,
+      title: "PYTHON",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: -1,
+      src: verilogpng,
+      title: "VERILOG",
+      style: "shadow-blue-800",
+    },
+    {
+      id: 0,
+      src: matlabpng,
+      title: "MATLAB",
+      style: "shadow-red-800",
+    },
     {
       id: 1,
       src: html,
