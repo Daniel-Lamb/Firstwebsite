@@ -55,9 +55,11 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href="https://google.com" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-          Learn More
-        </a>
+                <a href="https://example.com">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Learn More
+                  </button>
+                </a>
               </div>
             </div>
           ))}
