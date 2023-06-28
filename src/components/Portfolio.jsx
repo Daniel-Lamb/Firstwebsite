@@ -1,41 +1,41 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import osv from "../assets/portfolio/osv.png";
+import oasis from "../assets/portfolio/oasisgear.png";
+import athletics from "../assets/portfolio/UMDAC.png";
+import backpack from "../assets/portfolio/backpack.png";
+import datathon from "../assets/portfolio/datathon.png";
+import vhdl from "../assets/portfolio/vhdl.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: datathon,
       learnMoreLink: "https://google.com",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: athletics,
       learnMoreLink: "https://instagram.com",
     },
     {
       id: 3,
-      src: navbar,
+      src: vhdl,
       learnMoreLink: "https://example.com/learn3",
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: oasis,
       learnMoreLink: "https://example.com/learn4",
     },
     {
       id: 5,
-      src: installNode,
+      src: osv,
       learnMoreLink: "https://example.com/learn5",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: bacpack,
       learnMoreLink: "https://example.com/learn6",
     },
   ];
