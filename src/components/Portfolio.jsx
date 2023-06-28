@@ -60,6 +60,7 @@ const Portfolio = () => {
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
+                style={{ height: "300px", width: "100%" }}
               />
               <div className="flex items-center justify-center">
                 <a href={learnMoreLink} target="_blank" rel="noopener noreferrer">
