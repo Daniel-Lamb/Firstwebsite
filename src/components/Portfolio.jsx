@@ -11,32 +11,32 @@ const Portfolio = () => {
     {
       id: 1,
       src: datathon,
-      learnMoreLink: "https://google.com",
+      learnMoreLink: "https://github.com/Daniel-Lamb/QUESTech-Datathon",
     },
     {
       id: 2,
       src: athletics,
-      learnMoreLink: "https://instagram.com",
+      learnMoreLink: "https://portfolium.com/entry/process-improvement-for-client",
     },
     {
       id: 3,
       src: vhdl,
-      learnMoreLink: "https://example.com/learn3",
+      learnMoreLink: "https://github.com/Daniel-Lamb/VerilogDesign",
     },
     {
       id: 4,
       src: oasis,
-      learnMoreLink: "https://example.com/learn4",
+      learnMoreLink: "https://portfolium.com/entry/quest190-oasis-gear",
     },
     {
       id: 5,
       src: osv,
-      learnMoreLink: "https://example.com/learn5",
+      learnMoreLink: "https://portfolium.com/entry/osv-design",
     },
     {
       id: 6,
       src: backpack,
-      learnMoreLink: "https://example.com/learn6",
+      learnMoreLink: "https://portfolium.com/entry/pltw-design-and-development-capstone",
     },
   ];
 
