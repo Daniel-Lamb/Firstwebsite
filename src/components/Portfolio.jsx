@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: bacpack,
+      src: backpack,
       learnMoreLink: "https://example.com/learn6",
     },
   ];
