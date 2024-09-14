@@ -1,10 +1,8 @@
-## Welcome to my personal portfolio website!
+## Welcome to my personal portfolio website! [Demo](https://www.loom.com/share/63abc5fd27f645eeb69236b42af7663f?sid=c0baf996-e25d-4722-b484-7cd044dfc104)
 
 I learned React to experiment with front-end development, build a portfolio site, and launch it on my domain danielamb.com! I learned a lot about flex-box, embedding features and links, and building multiple pages through this project.
 
-Here is a quick demo:
 
-[![Demo Video](https://cdn.loom.com/sessions/thumbnails/63abc5fd27f645eeb69236b42af7663f-with-play.gif)](https://www.loom.com/share/63abc5fd27f645eeb69236b42af7663f)
 
 
 # Getting Started with Create React App
